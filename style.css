@@ -1,0 +1,79 @@
+/* ==========================================================================
+   BODY
+   ========================================================================== */
+
+body {
+  font: normal 1rem "Open Sans", arial, sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+
+.text-italic {
+  font-style: italic;
+}
+
+
+/*  CARD
+   ========================================================================== */
+
+.card {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  background-color:    #994d00;
+
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1.875rem;
+  font-family: “Impact”;
+  font-stretch: expanded;
+  text-transform: uppercase;
+  text-align: center;
+  color:  #e67300;
+  padding: 3px;
+}
+
+.card-picture {
+  padding: 0px;
+  width: 300px;
+
+}
+
+.image {
+  width: 300px;
+}
+
+.card-cotent {
+  border: 1px solid  #000000;
+  padding: 5px;
+  margin: 1px;
+  background-color: #ffcc99;
+}
+
+.card-info-interesting {
+  background-color:  #e67300;
+  border: 2px solid  #804000;
+
+}
+.card-content .card-info {
+  margin: 0;
+
+}
+
+.card-details {
+  padding: 0;
+  list-style: none;
+}
+
+.card-details .item {
+  font-style: italic;
+}
+
+.card-details .label {
+  font-weight: bold;
+  font-style: normal;
+}
